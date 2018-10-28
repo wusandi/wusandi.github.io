@@ -44,3 +44,23 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
+
+<!-- Gitalk 评论 start  -->
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+    // gitalk的主要参数
+        clientID: `99b683bc8055a7abcb2b`,
+        clientSecret: `d47fccd2e8c76ed2a72af2fa0697451bc27dc051`,
+        repo: `wusandi.github.io`,
+        owner: 'wusandi',
+        admin: ['wusandi'],
+        id: 'window.location.pathname',
+    
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->

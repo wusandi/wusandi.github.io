@@ -29,15 +29,15 @@ description_footer: 吴帅山的个人专栏！
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: #gaohaoyang
+# duoshuo_shortname: #hygblog
+# disqus_shortname: #gaohaoyang
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 552aa8d99c04e57a157ba015b317ce20
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+# baidu_tongji_id: 552aa8d99c04e57a157ba015b317ce20
+# google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
@@ -58,5 +58,5 @@ excerpt_separator: "\n\n\n\n"
 
 # paginate
 plugins: [jekyll-paginate]
-paginate: 6
+paginate: 6  # 一页你准备放几篇文章
 port: 4001
