@@ -7,6 +7,7 @@
 
 # Site settings
 title: wusandi的技术博客
+header-img: img/logo.png
 brief-intro: Java Coder For SDN
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wusandi.github.io" # the base hostname & protocol for your site
