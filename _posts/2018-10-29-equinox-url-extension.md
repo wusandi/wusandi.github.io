@@ -25,11 +25,11 @@ org.eclipse.osgi.internal.url.EquinoxFactoryManager#installContentHandlerFactory
 # 三、URL实例化并openConnetion流程
 
 ## 1、URL url = new URL(string)
-![avatar](https://github.com/wusandi/wusandi.github.io/tree/master/img/equinox-url/OSGi-URL1.png)
+![avatar](https://raw.githubusercontent.com/wusandi/wusandi.github.io/master/img/equinox-url/OSGI-URL1.png)
 
 ## 2、url.openConnection()
-![avatar](https://github.com/wusandi/wusandi.github.io/tree/master/img/equinox-url/OSGi-URL2.png)
+![avatar](https://raw.githubusercontent.com/wusandi/wusandi.github.io/master/img/equinox-url/OSGI-URL2.png)
 
 ## 3、url.openStream()访问ops4j的mvn协议
-![avatar](https://github.com/wusandi/wusandi.github.io/tree/master/img/equinox-url/OSGi-URL3.png)
+![avatar](https://raw.githubusercontent.com/wusandi/wusandi.github.io/master/img/equinox-url/OSGI-URL3.png)
 
